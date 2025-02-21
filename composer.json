@@ -9,6 +9,52 @@
         "module",
         "rest"
     ],
+    "repositories": {
+        "laminas-api-tools-versioning": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-versioning"
+        },
+        "laminas-api-tools-rpc": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-rpc"
+        },
+        "laminas-api-tools-rest": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-rest"
+        },
+        "laminas-api-tools-provider": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-provider"
+        },
+        "laminas-api-tools-oauth2": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-oauth2"
+        },
+        "laminas-api-tools-mvc-auth": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-mvc-auth"
+        },
+        "laminas-api-tools-hal": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-hal"
+        },
+        "laminas-api-tools-content-validation": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-content-validation"
+        },
+        "laminas-api-tools-content-negotiation": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-content-negotiation"
+        },
+        "laminas-api-tools-api-problem": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-api-problem"
+        },
+        "laminas-api-tools": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools"
+        }
+    },
     "homepage": "https://api-tools.getlaminas.org",
     "support": {
         "docs": "https://api-tools.getlaminas.org/documentation",

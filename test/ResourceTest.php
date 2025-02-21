@@ -446,7 +446,7 @@ class ResourceTest extends TestCase
 
         call_user_func_array([$this->resource, $eventName], $args);
 
-        $this->assertObjectHasAttribute('event', $test);
+        $this->assertObjectHasProperty('event', $test);
         $e = $test->event;
 
         if ($idIsPresent) {
@@ -476,7 +476,7 @@ class ResourceTest extends TestCase
 
         call_user_func_array([$this->resource, $eventName], $args);
 
-        $this->assertObjectHasAttribute('event', $test);
+        $this->assertObjectHasProperty('event', $test);
         $e = $test->event;
 
         $this->assertInstanceOf(ResourceEvent::class, $e);
